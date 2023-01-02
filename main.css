@@ -5,11 +5,19 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Mono';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_Monoplex-kr@1.0/MonoplexKR-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
 :root {
     --bg: #F98888;
     --white: #FFFFFF;
     --accent: #FFF5F3;
     --text: #555555;
+    --lightaccent: #FFE0DD
 }
 
 body {
@@ -30,7 +38,7 @@ h1, h2, h3, span, .item a {
 }
 
 h1 {
-    background: #ffe0dd;
+    background: var(--lightaccent);
     margin-top: 0px;
 }
 
@@ -309,8 +317,8 @@ img {
       font-family: "Mono";
       padding: 18px;
       margin: 10px 0;
-      color: var(--accent);
-      background-color: var(--bg);
+      color: inherit;
+      background-color: var(--lightaccent);
       border-radius: 25px;
       overflow-x: scroll;
           word-break: break-all;
@@ -318,8 +326,8 @@ img {
   
   code {
       font-family: "Mono";
-      background-color: var(--bg);
-      color: var(--accent);
+      background-color: var(--lightaccent);
+      color: inherit;
       border-radius: 15px;
       padding: 5px 10px;
       word-break: break-all;
@@ -336,7 +344,7 @@ img {
       content: "\201C";
       font-size: 2em;
       font-family: Georgia;
-      color: var(--yellow);
+      color: var(--lightaccent);
       float: left;
       margin: -5px 10px 0px -10px;
     }
