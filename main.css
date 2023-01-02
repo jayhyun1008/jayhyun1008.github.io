@@ -25,6 +25,10 @@ h1, h2, h3, span {
     color: var(--bg);
 }
 
+h1 {
+    background: #ffe0dd;
+}
+
 @media screen and (max-width: 700px) {
    body {
       padding: 170px 0 0 0;
