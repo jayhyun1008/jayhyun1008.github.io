@@ -300,3 +300,79 @@ img {
     width: 100%;
     border-radius: 15px;
 }
+
+ del {
+      text-decoration: line-through;
+  }
+  
+  pre {
+      font-family: "Mono";
+      padding: 18px;
+      margin: 10px 0;
+      color: var(--accent);
+      background-color: var(--bg);
+      border-radius: 25px;
+      overflow-x: scroll;
+          word-break: break-all;
+  }
+  
+  code {
+      font-family: "Mono";
+      background-color: var(--bg);
+      color: var(--accent);
+      border-radius: 15px;
+      padding: 5px 10px;
+      word-break: break-all;
+  }
+  
+  blockquote {
+      padding: 18px;
+      margin: 10px 0;
+      background-color: #fff;
+      border-radius: 25px;
+  }
+  
+  blockquote:before {
+      content: "\201C";
+      font-size: 2em;
+      font-family: Georgia;
+      color: var(--yellow);
+      float: left;
+      margin: -5px 10px 0px -10px;
+    }
+  
+  .item ul {
+      display: block;
+      list-style: none; /* Remove default bullets */
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+  }
+  
+  .item ul li::before {
+      content: "\2574";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+      font-weight: bold; /* If you want it to be bold */
+      display: inline-block; /* Needed to add space between the bullet and the text */
+      width: 1em; /* Also needed for space (tweak if needed) */
+      margin-left: -1em; /* Also needed for space (tweak if needed) */
+    }
+  
+  .item ul li {
+      margin-bottom: 10px;
+  }
+  
+  .item ol {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+      list-style-type: decimal;
+  }
+  
+.item ol li {
+    margin-bottom: 10px;
+}
