@@ -24,7 +24,7 @@ body {
    font-family: "ChosunGu", sans-serif;
 }
 
-h1, h2, h3, span {
+h1, h2, h3, span, .item a {
     color: var(--bg);
 }
 
@@ -54,6 +54,7 @@ i {
 a {
    color: inherit;
 }
+
 
 .menu-item,
 .menu-open-button {
