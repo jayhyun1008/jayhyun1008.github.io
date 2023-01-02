@@ -22,6 +22,7 @@ body {
    color: var(--white);
    text-align: center;
    font-family: "ChosunGu", sans-serif;
+   line-height: 1.7rem;
 }
 
 h1, h2, h3, span, .item a {
