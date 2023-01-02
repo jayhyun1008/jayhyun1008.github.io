@@ -32,13 +32,6 @@ h1 {
     background: #ffe0dd;
 }
 
-@media screen and (max-width: 700px) {
-   body {
-      padding: 170px 0 0 0;
-      width: 100%
-   }
-}
-
 .logo a img {
    margin: 50px;
    width: 100px;
