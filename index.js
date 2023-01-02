@@ -122,7 +122,7 @@ var qs = getQueryStringObject();
 var page = qs.page;
 
 if (!page) {
-    var url = "https://raw.githubusercontent.com/jayhyun1008/jayhyun1008.github.io/main/README.md"
+    var url = "https://raw.githubusercontent.com/jyhyun1008/peacht.art/main/README.md"
     fetch(url)
     .then(res => res.text())
     .then((out) => {
