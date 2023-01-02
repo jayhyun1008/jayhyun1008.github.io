@@ -279,5 +279,6 @@ a {
     border-radius: 15px;
     background: var(--accent);
     margin: 15px;
+    padding: 20px 10px;
     color: var(--text);
 }
