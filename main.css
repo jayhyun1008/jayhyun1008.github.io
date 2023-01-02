@@ -50,6 +50,7 @@ a {
 
 .menu-item,
 .menu-open-button {
+   border: 5px dashed #ffcccc;
    background: var(--accent);
    border-radius: 100%;
    width: 80px;
