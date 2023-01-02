@@ -5,13 +5,23 @@
     font-style: normal;
 }
 
+:root {
+    --bg: #F98888;
+    --white: #FFFFFF;
+    --accent: #FFF5F3;
+}
+
 body {
    padding: 0;
    margin: 0;
-   background: #F98B88;
-   color: #EEEEEE;
+   background: var(--bg);
+   color: var(--white);
    text-align: center;
    font-family: "ChosunGu", sans-serif;
+}
+
+h1, h2, h3, span {
+    color: var(--accent);
 }
 
 @media screen and (max-width: 700px) {
@@ -38,7 +48,7 @@ a {
 
 .menu-item,
 .menu-open-button {
-   background: #FFF5F3;
+   background: var(--accent);
    border-radius: 100%;
    width: 80px;
    height: 80px;
@@ -62,7 +72,7 @@ a {
 .lines {
    width: 25px;
    height: 3px;
-   background: #F98B88;
+   background: var(--bg);
    display: block;
    position: absolute;
    top: 50%;
@@ -241,71 +251,6 @@ a {
    transform: translate3d(-0.25084px, -104.9997px, 0);
 }
 
-.blue {
-   background-color: #669AE1;
-   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
-   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-}
-
-.blue:hover {
-   color: #669AE1;
-   text-shadow: none;
-}
-
-.green {
-   background-color: #70CC72;
-   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
-   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-}
-
-.green:hover {
-   color: #70CC72;
-   text-shadow: none;
-}
-
-.red {
-   background-color: #FE4365;
-   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
-   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-}
-
-.red:hover {
-   color: #FE4365;
-   text-shadow: none;
-}
-
-.purple {
-   background-color: #C49CDE;
-   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
-   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-}
-
-.purple:hover {
-   color: #C49CDE;
-   text-shadow: none;
-}
-
-.orange {
-   background-color: #FC913A;
-   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
-   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-}
-
-.orange:hover {
-   color: #FC913A;
-   text-shadow: none;
-}
-
-.lightblue {
-   background-color: #62C2E4;
-   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
-   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-}
-
-.lightblue:hover {
-   color: #62C2E4;
-   text-shadow: none;
-}
 
 .credit {
    margin: 24px 20px 120px 0;
