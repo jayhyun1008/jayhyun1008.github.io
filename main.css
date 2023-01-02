@@ -36,6 +36,7 @@ h1, h2, h3, span {
    margin: 50px;
    width: 100px;
    height: 100px;
+   filter: drop-shadow(5px 5px var(--accent));
 }
 
 i {
