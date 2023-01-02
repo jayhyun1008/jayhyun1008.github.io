@@ -9,7 +9,7 @@
     --bg: #F98888;
     --white: #FFFFFF;
     --accent: #FFF5F3;
-    --text: #CCCCCC;
+    --text: #555555;
 }
 
 body {
@@ -270,7 +270,14 @@ a {
    text-decoration: underline;
 }
 
+.main_container{
+    max-width: 640px;
+    margin: 0 auto;
+}
+
 .item {
+    border-radius: 15px;
     background: var(--accent);
+    margin: 15px;
     color: var(--text);
 }
