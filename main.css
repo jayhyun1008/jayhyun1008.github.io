@@ -130,7 +130,7 @@ a {
 }
 
 .menu {
-   margin: 0 calc(50vw - 40px);
+   margin: 0 calc(50% - 40px);
    position: fixed;
    top: calc(100vh - 225px);
    width: 80px;
