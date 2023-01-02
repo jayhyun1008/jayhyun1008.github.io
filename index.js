@@ -126,7 +126,7 @@ if (!page) {
     fetch(url)
     .then(res => res.text())
     .then((out) => {
-        document.querySelector(".page_title").innerText = ''
+        document.querySelector(".page_title").innerText = 'ピーチタルト'
         document.querySelector("#post").innerHTML += parseMd(out)
     })
     .catch(err => { throw err });
