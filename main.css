@@ -285,6 +285,7 @@ a {
 .main_container{
     max-width: 540px;
     margin: 0 auto;
+    margin-bottom: 400px;
 }
 
 .page_title{
