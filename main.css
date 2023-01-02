@@ -275,6 +275,7 @@ a {
 }
 
 .item {
+    text-align: justify;
     border-radius: 15px;
     background: var(--accent);
     margin: 15px;
