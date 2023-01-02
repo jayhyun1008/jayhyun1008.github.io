@@ -283,9 +283,14 @@ a {
 
 .item {
     text-align: justify;
-    border-radius: 15px;
+    border-radius: 30px;
     background: var(--accent);
     margin: 15px;
     padding: 20px;
     color: var(--text);
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
 }
