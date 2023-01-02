@@ -9,6 +9,7 @@
     --bg: #F98888;
     --white: #FFFFFF;
     --accent: #FFF5F3;
+    --text: #CCCCCC;
 }
 
 body {
@@ -267,4 +268,9 @@ a {
 
 .credit a:hover {
    text-decoration: underline;
+}
+
+.item {
+    background: var(--accent);
+    color: var(--text);
 }
