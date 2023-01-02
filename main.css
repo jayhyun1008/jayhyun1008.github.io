@@ -16,7 +16,7 @@ body {
 
 i {
    font-size: 2.5rem;
-   margin-bottom: -20px;
+   margin-top: 20px;
 }
 
 a {
@@ -49,7 +49,7 @@ a {
 .lines {
    width: 25px;
    height: 3px;
-   background: #596778;
+   background: #F98B88;
    display: block;
    position: absolute;
    top: 50%;
@@ -112,8 +112,8 @@ a {
 } */
 
 .menu-item:hover {
-   background: #EEEEEE;
-   color: #3290B1;
+   background: #FFF9E6;
+   color: #FCCF55;
 }
 
 .menu-item:nth-child(3) {
