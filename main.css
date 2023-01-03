@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'ChosunGu';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGu.woff') format('woff');
+    font-family: 'Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -29,7 +29,7 @@ body {
    background-position: -15px -15px;
    color: var(--white);
    text-align: center;
-   font-family: "ChosunGu", sans-serif;
+   font-family: "Regular", sans-serif;
    line-height: 1.7;
 }
 
