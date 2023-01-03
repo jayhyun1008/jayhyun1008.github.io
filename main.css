@@ -61,6 +61,10 @@ a {
    color: inherit;
 }
 
+b, strong, h1, h2, h3 {
+    	text-shadow: -0.2px 0, 0 0.2px, 0.2px 0, 0 -0.2px;
+	letter-spacing: 0.1rem;
+}
 
 .menu-item,
 .menu-open-button {
