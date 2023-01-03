@@ -33,6 +33,7 @@ body {
    text-align: center;
    font-family: "Regular", 'DotGothic16', sans-serif;
    line-height: 1.7;
+   background-attachment: fixed;
 }
 
 h1, h2, h3, span, .item a {
